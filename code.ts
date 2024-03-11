@@ -6,8 +6,8 @@ figma.ui.onmessage = async (pluginMessage) => {
 
   // leer el cvs que viene en el campo pluginMessage.cvs y hacer un log con los datos que tengo
 
-  console.log(pluginMessage.file);
-  return
+  // console.log(pluginMessage.file);
+  // return
   
 
   await figma.loadFontAsync({family: 'Rubik', style: 'Regular'});
