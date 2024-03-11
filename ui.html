@@ -2098,16 +2098,16 @@
 <script>
 const file = [];
 
-  function cambiarFile() {
-    const input = document.getElementById('inputFileServer');
-    if (input.files && input.files[0])
-      console.log("File Seleccionado : ", input.files[0]);
-      file = input.files[0];
-  }
-  console.log("Sin Archivo Seleccionado " + document.getElementById('inputFileServer').files[0]);
+  // function cambiarFile() {
+  //   const input = document.getElementById('inputFileServer');
+  //   if (input.files && input.files[0])
+  //     console.log("File Seleccionado : ", input.files[0]);
+  //     file = input.files[0];
+  // }
+  // console.log("Sin Archivo Seleccionado " + document.getElementById('inputFileServer').files[0]);
 
   document.getElementById("submit-post").onclick = () => {
-    file = file;
+    // file = file;
     const name = document.getElementById("name").value;
     const username = document.getElementById("username").value;
     const description = document.getElementById("description").value;
